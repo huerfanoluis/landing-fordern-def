@@ -1,0 +1,179 @@
+
+
+/*header*/
+header{
+    background: url(../img/img-fondo-2.jpg) no-repeat;
+    background-size: cover;
+    padding:100px 0;
+
+}
+header .navbar{
+    background-color: rgb(166, 192, 184);
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+   
+}
+header .navbar .navbar-brand img{
+    width: 80px;    
+}
+
+header .navbar h1{
+    color: rgb(19, 105, 77);
+}
+header .navbar #menu {
+    justify-content: flex-end;
+}
+header .navbar #menu li a{
+    color:rgb(19, 105, 77);
+    border-radius: 3px;
+    
+}
+header .navbar .navbar-toggler{
+    background:ivory;
+    background-size: cover;
+} 
+#bienvenida{
+    margin-bottom: 3%;
+    
+}
+#bienvenida .text-bienvenida {
+    text-align: center;
+    padding: 5% 2%;
+    color: rgb(237, 250, 246);
+}
+#bienvenida .row .card{
+    background: rgba(65, 238, 180, 0.253);
+    border-radius: 7px;
+    text-align: center;
+    color: rgb(237, 250, 246);
+}
+#valores .container{
+    text-align: center;
+    color:rgb(19, 105, 77) ;
+}
+#valores .container h2{
+    
+    padding: 5%;
+    
+}
+#valores .row{
+    justify-content: space-around;
+    padding-bottom: 3%;
+}
+#valores .row .col-md-3{
+    border: solid 2px rgb(19, 105, 77);
+    padding: 5% 1%;
+    text-align: center;
+  
+}
+#valores .row #calidad img{
+    width: 40%;
+    margin-bottom: 5px;    
+}
+#Servicios{
+    padding-bottom: 5%;
+}
+#Servicios #Oferta{
+    padding: 2%;
+    background: url(../img/bcg-ser-3.jpg) no-repeat;
+    background-size: cover;    
+}
+#Servicios h2{
+    background-color: #233657;
+    text-align: center;
+    padding: 2% 0;
+    color: #a6c0b8;
+}
+#Servicios h3{
+    border: solid 2px #a6c0b8;
+    padding: 5px ;
+    width: 100%;
+    font-weight: 500;
+    color: #a6c0b8;
+    text-align: center;
+}
+#Servicios .row .cont-options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3%;
+    box-shadow: 3px 3px 3px 1px #a6c0b8;
+}
+#Servicios .row .cont-options button{
+    margin-bottom: 10px;
+    width: 40%;
+    padding: 4%;
+    border-radius: 15px;
+}
+#Servicios .row .cont-options-inv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#Servicios #Invitado{
+    background: url(../img/bcg-ser-3.jpg) no-repeat;
+    background-size: cover;
+    padding: 10px 0;
+}
+#Servicios .cont-collapse{
+    display: flex;
+    justify-content: center;
+}
+#Servicios #accordionInvited{
+    max-width: 50%;
+}
+#Servicios #accordionInvited .card{
+    background-color: transparent;
+    
+}
+#Servicios #accordionInvited .card .mb-0{
+    background: transparent;
+    padding: 0;
+}
+#Servicios #accordionInvited .card-body{
+    background-color: rgb(237, 250, 246);
+}
+#Servicios .cont-text{
+    font-size: 24px;
+    font-weight: 400;
+    color: #a6c0b8;
+    margin: 20px 0;
+    text-align: center;
+}
+.Nosotros{
+    background:rgb(233, 230, 230) ;
+}
+.Nosotros .container{
+    padding: 2%;
+    margin-bottom: 2%;
+}
+.Nosotros .container #carousel-equipo .carousel-item{
+    max-height: 500px;
+    justify-content: center;
+}
+.Nosotros .container #carousel-equipo .carousel-item .carousel-caption{
+    color: rgb(19, 105, 77);
+    background: rgb(233, 230, 230);
+    border-radius: 3px;
+}
+.razon-social .row{
+    padding: 2%;
+}
+.razon-social #ident-corp .col-md-3{
+    border: solid 1px rgb(19, 105, 77);
+    border-radius: 2px;
+    color: rgb(19, 105, 77);
+    
+}
+footer{
+    background:rgb(166, 192, 184);
+    color: rgb(19, 105, 77);
+
+}
+
+footer .container .row #contacto{
+    text-align: center;
+    padding: 5%;
+}
